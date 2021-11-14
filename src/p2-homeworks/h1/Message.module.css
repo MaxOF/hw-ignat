@@ -1,0 +1,60 @@
+.chat {
+    display: flex;
+    margin: 50px;
+    background-color: goldenrod;
+    width: 300px;
+    height: 100px;
+
+}
+.avatarWrappper{
+    margin-top: 35px;
+}
+.avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding-right: 5px;
+}
+
+.text{
+    width: 150px;
+    height: 60px;
+    margin: 12px 0px;
+    background-color: bisque;
+    position: relative;
+    text-align: left;
+    min-width: 45%;
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+.text .name{
+    color: darkblue;
+}
+.text .time{
+    width: 50px;
+    margin-left: 110px;
+    margin-top: -12px;
+}
+
+
+.text::before {
+    content: '';
+    position: absolute;
+    visibility: visible;
+    bottom: -1px;
+    left: -10px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #ccc;
+}
+
+.text::after {
+    content: '';
+    position: absolute;
+    visibility: visible;
+    bottom: 0px;
+    left: -8px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid bisque;
+    clear: both;
+}
