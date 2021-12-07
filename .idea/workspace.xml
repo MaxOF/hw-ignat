@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3f7db5b4-549c-4519-8696-c07692d37dc4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h2/Affair.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h2/Affair.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +14,17 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="20sMi7c53rSWRoSc12TUzbiIcZe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -23,7 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ts-1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -76,6 +89,13 @@
       <workItem from="1637414238761" duration="11000" />
       <workItem from="1637493276779" duration="1242000" />
       <workItem from="1637593800206" duration="29000" />
+      <workItem from="1637907407282" duration="9192000" />
+      <workItem from="1638125537198" duration="4224000" />
+      <workItem from="1638198175357" duration="104000" />
+      <workItem from="1638544111402" duration="2269000" />
+      <workItem from="1638550525315" duration="630000" />
+      <workItem from="1638552795255" duration="1051000" />
+      <workItem from="1638879787093" duration="3371000" />
     </task>
     <servers />
   </component>

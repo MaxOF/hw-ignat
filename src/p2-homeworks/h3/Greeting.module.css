@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.error {
+    color: red;
+    height: 40px;
+    margin: 20px;
+}
+.inputClass {
+    margin: 20px;
+    background: slategrey;
+}
+.errorInput{
+    margin: 20px;
+    background: wheat;
+    border: 1px solid orangered;
+    outline: none;
+}
+.button {
+    margin: 20px;
+    width: 20px;
+    height: 20px;
+    background-color: slategrey;
+    outline: none;
+}
