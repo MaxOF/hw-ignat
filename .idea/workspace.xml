@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3f7db5b4-549c-4519-8696-c07692d37dc4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,7 @@
     <property name="ts.external.directory.path" value="D:\incubator\monday\ignat\hw-1\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Jest.filterAffairs.test.tsx">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="deleteAffair.test.tsx" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -65,8 +66,19 @@
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deploy" />
         <item itemvalue="Jest.filterAffairs.test.tsx" />
         <item itemvalue="Jest.deleteAffair.test.tsx" />
       </list>
@@ -94,7 +106,7 @@
       <workItem from="1638550525315" duration="630000" />
       <workItem from="1638552795255" duration="1051000" />
       <workItem from="1638879787093" duration="3574000" />
-      <workItem from="1641653744575" duration="8957000" />
+      <workItem from="1641653744575" duration="11885000" />
     </task>
     <servers />
   </component>
