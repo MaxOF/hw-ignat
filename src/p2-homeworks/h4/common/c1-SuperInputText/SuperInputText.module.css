@@ -1,0 +1,25 @@
+.superInput {
+    font-size:18px;
+    padding:10px 10px 10px 5px;
+    display:block;
+    width:300px;
+    border:none;
+    border-bottom:1px solid #757575;
+}
+
+.errorInput {
+    font-size:18px;
+    padding:10px 10px 10px 5px;
+    width:300px;
+    border: 1px solid #757575;
+    background: red;
+    display:block;
+}
+
+.error {
+    color: red;
+}
+
+.input {
+    background-color: white;
+}
