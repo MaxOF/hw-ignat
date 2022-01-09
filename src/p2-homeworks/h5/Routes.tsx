@@ -14,9 +14,9 @@ function RoutesHw() {
                 {/*в начале мы попадаем на страницу '/' и переходим сразу на страницу PRE_JUNIOR*/}
                 {/*exact нужен чтоб указать полное совподение (что после '/' ничего не будет)*/}
                 <Route path={'/*'} element={<Error404/>}/>
-                <Route path={'/pre-junior'} element={<PreJunior/>}/>
-                <Route path={'/junior'} element={<Junior/>}/>
-                <Route path={'/junior-plus'} element={<JuniorPlus/>}/>
+                <Route path={'/hw-ignat/pre-junior'} element={<PreJunior/>}/>
+                <Route path={'/hw-ignat/junior'} element={<Junior/>}/>
+                <Route path={'/hw-ignat/junior-plus'} element={<JuniorPlus/>}/>
                 // add routes
 
                 {/*у этого роута нет пути, он отрисуется если пользователь захочет попасть на несуществующую страницу*/}
