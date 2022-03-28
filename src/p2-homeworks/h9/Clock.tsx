@@ -39,7 +39,7 @@ function Clock() {
             </div>
 
             {show && (
-                <div>
+                <div className={s.hiddenDate}>
                     {stringDate}
                 </div>
             )}
