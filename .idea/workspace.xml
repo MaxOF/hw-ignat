@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f7db5b4-549c-4519-8696-c07692d37dc4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h8/HW8.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/Routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/Routes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Junior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Junior.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c5-SuperSelect/SuperSelect.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c5-SuperSelect/SuperSelect.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c5-SuperSelect/SuperSelect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c5-SuperSelect/SuperSelect.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c6-SuperRadio/SuperRadio.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c6-SuperRadio/SuperRadio.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c6-SuperRadio/SuperRadio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c6-SuperRadio/SuperRadio.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h8/HW8.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h8/HW8.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h8/bll/homeWorkReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h8/bll/homeWorkReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h8/bll/tests/homeWorkReducer.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h8/bll/tests/homeWorkReducer.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h8/HW8.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h8/HW8.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,10 +130,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deploy" />
         <item itemvalue="Jest.check age 18" />
         <item itemvalue="Jest.sort name down" />
         <item itemvalue="Jest.sort name up" />
-        <item itemvalue="npm.deploy" />
         <item itemvalue="Jest.filterAffairs.test.tsx" />
       </list>
     </recent_temporary>
@@ -174,7 +164,7 @@
       <workItem from="1641800840388" duration="600000" />
       <workItem from="1641813156037" duration="2454000" />
       <workItem from="1647957204711" duration="51000" />
-      <workItem from="1648459551436" duration="15539000" />
+      <workItem from="1648459551436" duration="16211000" />
     </task>
     <servers />
   </component>
