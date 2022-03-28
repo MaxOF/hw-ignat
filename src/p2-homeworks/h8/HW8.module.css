@@ -1,0 +1,11 @@
+.list {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    margin: 20px;
+}
+.buttonsSort {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+}

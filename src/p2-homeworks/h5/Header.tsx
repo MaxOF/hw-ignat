@@ -11,9 +11,9 @@ function Header() {
         <div className={s.header}>
 
             <div>
-                <NavLink to={'/pre-junior'} className={s.link}>Pre-junior</NavLink>
-                <NavLink to={'/junior'} className={s.link}>Junior</NavLink>
-                <NavLink to={'/junior-plus'} className={s.link}>Junior-plus</NavLink>
+                <NavLink to={'/hw-ignat'} className={s.link}>Pre-junior</NavLink>
+                <NavLink to={'/hw-ignat/junior'} className={s.link}>Junior</NavLink>
+                <NavLink to={'/hw-ignat/junior-plus'} className={s.link}>Junior-plus</NavLink>
             </div>
             <button className={s.button}>Menu</button>
 
