@@ -1,0 +1,4 @@
+.wrapperButtons {
+    display: flex;
+    flex-direction: row;
+}
