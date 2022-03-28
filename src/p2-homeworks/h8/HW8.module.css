@@ -7,5 +7,8 @@
 .buttonsSort {
     display: flex;
     width: 350px;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+.time {
+    display: inline-block;
 }
