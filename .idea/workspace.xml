@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f7db5b4-549c-4519-8696-c07692d37dc4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h6/common/c4-SuperEditableSpan/SuperEditableSpan.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/Routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/Routes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/PreJunior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/PreJunior.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h6/HW6.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h6/HW6.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h6/common/c4-SuperEditableSpan/SuperEditableSpan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h6/common/c4-SuperEditableSpan/SuperEditableSpan.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Junior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Junior.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +133,7 @@
       <workItem from="1641800840388" duration="600000" />
       <workItem from="1641813156037" duration="2454000" />
       <workItem from="1647957204711" duration="51000" />
-      <workItem from="1648459551436" duration="3774000" />
+      <workItem from="1648459551436" duration="7764000" />
     </task>
     <servers />
   </component>
