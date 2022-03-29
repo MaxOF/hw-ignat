@@ -25,6 +25,7 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
 
 
     const onChangeCallback = (e: ChangeEvent<HTMLSelectElement>) => {
+        debugger
         // onChange, onChangeOption
         onChange && onChange(e)
         if (onChangeOption) {
