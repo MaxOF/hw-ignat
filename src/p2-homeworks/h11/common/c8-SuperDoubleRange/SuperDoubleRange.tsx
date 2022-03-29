@@ -1,42 +1,48 @@
-import React, {ChangeEvent, DetailedHTMLProps, InputHTMLAttributes} from "react";
-import s from "../c7-SuperRange/SuperRange.module.css";
+import * as React from 'react';
+import Box from '@mui/material/Box';
+import Slider from '@mui/material/Slider';
 
-type DefaultInputPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>
-
-// здесь мы говорим что у нашего инпута будут такие же пропсы как у обычного инпута
-// (чтоб не писать value: string, onChange: ...; они уже все описаны в DefaultInputPropsType)
-type SuperRangePropsType = DefaultInputPropsType & { // и + ещё пропсы которых нет в стандартном инпуте
-    onChangeRange?: (value: number) => void
-};
-
-const SuperDoubleRange: React.FC<SuperRangePropsType> = (
-    {
-        type, // достаём и игнорируем чтоб нельзя было задать другой тип инпута
-        onChange, onChangeRange,
-        className,
-        value,
-        ...restProps// все остальные пропсы попадут в объект restProps
-    }
-) => {
-    const onChangeCallback = (e: ChangeEvent<HTMLInputElement>) => {
-        onChange && onChange(e) // сохраняем старую функциональность
-
-        onChangeRange && onChangeRange(+e.currentTarget.value)
-    }
-
-    const finalRangeClassName = `${s.range} ${className ? className : ''}`
-
-    return (
-        <>
-            <input
-                type={'range'}
-                onChange={onChangeCallback}
-                className={finalRangeClassName}
-                value={value}
-                {...restProps} // отдаём инпуту остальные пропсы если они есть (value например там внутри)
-            />
-        </>
-    )
+type PropsType = {
+    value: number | number[]
+    onChangeSuperRange: (value: number | number[]) => void
 }
 
-export default SuperDoubleRange
+const minDistance = 10;
+
+export const SuperDoubleRange = ({value, onChangeSuperRange}: PropsType) => {
+
+
+    const handleChange2 = (
+        event: Event,
+        newValue: number | number[],
+        activeThumb: number,
+    ) => {
+
+        if (!Array.isArray(newValue)) {
+            return;
+        }
+        if (newValue[1] - newValue[0] < minDistance) {
+            if (activeThumb === 0) {
+                const clamped = Math.min(newValue[0], 100 - minDistance);
+                onChangeSuperRange([clamped, clamped + minDistance]);
+            } else {
+                const clamped = Math.max(newValue[1], minDistance);
+                onChangeSuperRange([clamped - minDistance, clamped]);
+            }
+        } else {
+            onChangeSuperRange(newValue as number[]);
+        }
+    };
+
+    return (
+        <Box sx={{ width: 300 }}>
+            <Slider
+                getAriaLabel={() => 'Minimum distance shift'}
+                value={value}
+                onChange={handleChange2}
+                valueLabelDisplay="auto"
+                disableSwap
+            />
+        </Box>
+    );
+}
